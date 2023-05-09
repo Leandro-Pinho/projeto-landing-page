@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* cabeçalho */
+.backHead {
+    color: aliceblue;
+    background-image: url(img/fundo.svg);
+    background-repeat: no-repeat;
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 80px;
+    height: 40px;
+}
+
+.backHead h2 {
+    margin: 100px 0px 0px 100px;
+    padding: 0;
+}
+
+.backHead p {
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+/* menu iformativo */
+
+#menuInfo {
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone {
+    margin: 40px 0px 40px 100px;
+    padding: 25px;
+}
+
+.textoInformativo {
+    display: flex;
+    align-items: center;
+}
+
+/* seção video */
+
+#secaoVideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content: space-around;
+}
+
+#tituloVideo {
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video {
+    margin: 50px 25px 50px 80px;
+}
+
+/* carrossel */
+
+#carrossel {
+    background-color: #247BA0;
+    padding: 40px;
+    text-align: center;
+}
+
+#titulo-carrossel {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#div-cards {
+    margin: 25px;
+    display: inline-grid;
+    grid-auto-flow: column;
+    align-content: space-around;
+}
+
+.card {
+    margin-left: 50px;
+}
+
+#seta-esquerda {
+    display: none;
+    margin-top: 100%;
+    margin-right: 45px;
+}
+
+#seta-direita {
+    margin-top: 80%;
+    margin-left: 60px;
+}
+
+#bruna {
+    display: none;
+}
+
+.seta {
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+/* configuração do formulario */
+#formulario {
+    text-align: center;
+}
+
+#titulo-formulario {
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background: #EAECE5;
+    border-radius: 8px;
+    border: none;
+    padding-left: 10px;
+    margin: 15px;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+}
+
+form button {
+    margin-left: 14%;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    background: #247BA0;
+    border-radius: 8px;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3486a8;
+    color: #ffffff;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #567785;
+    transition-duration: 0.5s;
+}
